@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="shortcut icon" href="planet.ico"/>
+        <link rel="stylesheet" type="text/css" href="main.css"/>
+        
+    	<title>Solar System</title>
+    </head>
+    <body>
+    	<header>Welcome to the Solar System</header>
+        <center>
+            Click on the sun or a planet to find out more information about it.
+            <br/>
+            <img src="sun.png" alt="The Sun" width="200" height="200" usemap="#sun"/>
+            <img src="mercury.png" alt="Mercury" width="50" height="50" usemap="#mercury"/>
+            <img src="venus.png" alt="Venus" width="64" height"64" usemap="#venus"/>
+            <img src="earth.png" alt="Earth" width="64" height="64" usemap="#earth"/>
+            <img src="mars.png" alt="Mars" width="48" height="48" usemap="#mars"/>
+        
+            <map name="sun">
+                <area shape="circle" coords="100,100,100" href="sun.html" alt="The Sun"/>
+            </map>
+            
+            <map name="mercury">
+                <area shape="circle" coords="25,25,25" href="mercury.html" alt="Mercury"/>
+            </map>
+            
+            <map name="venus">
+                <area shape="circle" coords="32,32,32" href="venus.html" alt="Venus"/>
+            </map>
+            
+            <map name="earth">
+                <area shape="circle" coords="32,32,32" href="earth.html" alt="Earth"/>
+            </map>
+            
+            <map name="mars">
+                <area shape="circle" coords="24,24,24" href="mars.html" alt="Mars"/>
+            </map>
+        </center>
+    </body>
+</html>
